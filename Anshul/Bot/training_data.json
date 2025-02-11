@@ -1,0 +1,108 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you?", "Hi there! Need any health advice?", "Hey! What's on your mind?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+        "responses": ["Goodbye! Stay healthy!", "See you soon!", "Take care and stay safe!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "Glad to help!", "Anytime! Stay safe!"]
+      },
+      {
+        "tag": "flu_symptoms",
+        "patterns": ["What are the symptoms of flu?", "How do I know if I have the flu?"],
+        "responses": ["Flu symptoms include fever, chills, cough, sore throat, and body aches.", "Common flu symptoms are fever, cough, and fatigue. If symptoms worsen, see a doctor."]
+      },
+      {
+        "tag": "covid_symptoms",
+        "patterns": ["What are COVID symptoms?", "How do I know if I have COVID?"],
+        "responses": ["COVID symptoms include fever, cough, difficulty breathing, and loss of taste or smell. Get tested if you have these symptoms."]
+      },
+      {
+        "tag": "first_aid_burns",
+        "patterns": ["What should I do for a burn?", "How to treat a minor burn?"],
+        "responses": ["Run cool water over the burn, apply a sterile bandage, and avoid breaking blisters."]
+      },
+      {
+        "tag": "pregnancy_diet",
+        "patterns": ["What should I eat during pregnancy?", "Best foods for pregnancy?"],
+        "responses": ["Eat plenty of fruits, vegetables, whole grains, and protein-rich foods. Stay hydrated and avoid processed foods."]
+      },
+      {
+        "tag": "mental_health_stress",
+        "patterns": ["How to manage stress?", "Tips for reducing stress?"],
+        "responses": ["Practice deep breathing, exercise regularly, and ensure you get enough sleep."]
+      },
+      {
+        "tag": "hydration",
+        "patterns": ["How much water should I drink daily?", "Is 2 liters of water enough?"],
+        "responses": ["The recommended daily water intake is about 2-3 liters, depending on your body needs and activity level."]
+      },
+      {
+        "tag": "diabetes_diet",
+        "patterns": ["What should a diabetic eat?", "Best diet for diabetes?"],
+        "responses": ["A balanced diet with whole grains, lean proteins, and vegetables is best. Avoid processed sugars and monitor carbohydrate intake."]
+      },
+      {
+        "tag": "heart_health",
+        "patterns": ["How to keep my heart healthy?", "Best foods for heart health?"],
+        "responses": ["Eat a diet rich in fruits, vegetables, and lean proteins, exercise regularly, and avoid trans fats."]
+      },
+      {
+        "tag": "sleep_tips",
+        "patterns": ["How to improve sleep?", "Tips for better sleep?"],
+        "responses": ["Maintain a consistent sleep schedule, avoid caffeine before bed, and create a relaxing bedtime routine."]
+      },
+      {
+        "tag": "exercise_routine",
+        "patterns": ["What is a good daily exercise routine?", "How much should I exercise?"],
+        "responses": ["Aim for at least 30 minutes of moderate exercise daily, such as walking, jogging, or yoga."]
+      },
+      {
+        "tag": "skin_care",
+        "patterns": ["How to take care of my skin?", "Best skincare routine?"],
+        "responses": ["Stay hydrated, use sunscreen, and cleanse your skin daily. Avoid excessive sun exposure."]
+      },
+      {
+        "tag": "weight_loss",
+        "patterns": ["How to lose weight?", "Best ways to reduce weight?"],
+        "responses": ["Maintain a calorie deficit, eat whole foods, and exercise regularly. Avoid sugary and processed foods."]
+      },
+      {
+        "tag": "first_aid_cuts",
+        "patterns": ["What to do for a cut?", "How to stop bleeding?"],
+        "responses": ["Apply pressure to stop bleeding, clean the wound with water, and cover it with a sterile bandage."]
+      },
+      {
+        "tag": "allergy_treatment",
+        "patterns": ["What to do for allergies?", "How to treat allergies?"],
+        "responses": ["Avoid allergens, take antihistamines, and see a doctor if symptoms persist."]
+      },
+      {
+        "tag": "headache_remedies",
+        "patterns": ["How to get rid of a headache?", "Best treatment for headaches?"],
+        "responses": ["Stay hydrated, rest in a dark room, and take a mild pain reliever if needed."]
+      },
+      {
+        "tag": "cold_treatment",
+        "patterns": ["How to treat a common cold?", "Best home remedies for cold?"],
+        "responses": ["Drink warm fluids, get plenty of rest, and use a humidifier to ease congestion."]
+      },
+      {
+        "tag": "blood_pressure",
+        "patterns": ["My blood pressure is <value>",
+        "I have a BP of <value>",
+        "My BP is <value>"],
+        "responses": [ "Your blood pressure is {value}. If it's too high or too low, consider consulting a doctor.",
+        "You mentioned your BP is {value}. Keep track of it regularly and maintain a healthy lifestyle."]
+      }
+    ]
+  }
+  
