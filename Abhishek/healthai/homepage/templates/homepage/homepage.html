@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.content }}</p>
+  <a href="{% pageurl about.AboutPage %}">About Us</a>
+  <a href="{% pageurl contact.ContactPage %}">Contact Us</a>
+  <a href="{% pageurl chatbot.ChatbotPage %}">Chatbot</a>
+{% endblock %}

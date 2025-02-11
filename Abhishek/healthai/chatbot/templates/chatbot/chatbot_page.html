@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  <form method="POST">
+    {% csrf_token %}
+    <input type="text" name="chatbot_input" placeholder="Ask your health-related question here">
+    <button type="submit">Ask</button>
+  </form>
+{% endblock %}

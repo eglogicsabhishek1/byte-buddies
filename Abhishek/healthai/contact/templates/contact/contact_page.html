@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.body }}</p>
+  <form method="POST">
+    {% csrf_token %}
+    <input type="text" name="user_name" placeholder="Your Name">
+    <input type="email" name="user_email" placeholder="Your Email">
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+{% endblock %}
